@@ -60,6 +60,7 @@ const initGame = () => {
         highScore = score >= highScore ? score : highScore;
         localStorage.setItem("high-score", highScore);
         scoreElement.innerText = `Score: ${score}`;
+        document.title = `Score: ${score} - Snake Game`;
         highScoreElement.innerText = `High Score: ${highScore}`;
     }
     // Updating the snake's head position based on the current velocity
