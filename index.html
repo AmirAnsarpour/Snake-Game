@@ -4,14 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Score: 0 - Snake Game</title>
+    <meta name="description" content="Play the classic Snake Game with modern features - multiple difficulty levels, pause functionality, and more!">
+    <meta name="keywords" content="snake game, retro games, arcade games, browser games">
+    <meta name="author" content="AmirAnsarpour">
+    <meta name="theme-color" content="#F57F17">
+    
+    <title>Snake Game | Modern Classic</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icon.png">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/loading-external.css">
+    
+    <!-- Preload Scripts -->
     <script src="js/script.js" defer></script>
     <script src="js/loading-external.js" defer></script>
 </head>
 
 <body>
+    <!-- Loading Screen -->
     <div class="main-loader-ex">
         <div class="loader-ex">
             <div class="loader-ex-dot"></div>
@@ -20,12 +33,18 @@
         </div>
     </div>
 
+    <!-- Game Container -->
     <div class="wrapper">
+        <!-- Score Display -->
         <div class="game-details">
             <span class="score">Score: 0</span>
             <span class="high-score">High Score: 0</span>
         </div>
+        
+        <!-- Game Board -->
         <div class="play-board"></div>
+        
+        <!-- Mobile Controls -->
         <div class="controls">
             <i data-key="ArrowLeft" class="bi bi-chevron-left"></i>
             <i data-key="ArrowUp" class="bi bi-chevron-up"></i>
@@ -33,8 +52,10 @@
             <i data-key="ArrowRight" class="bi bi-chevron-right"></i>
         </div>
     </div>
+    
+    <!-- Attribution -->
     <div id="my-id">
-        <p>by<a href="https://AmirAnsarpour.ir/" target="_blank">AmirAnsarpour</a></p>
+        <p>by <a href="https://AmirAnsarpour.ir/" target="_blank" rel="noopener">AmirAnsarpour</a></p>
     </div>
 </body>
 
